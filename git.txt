@@ -13,6 +13,8 @@ git clone
 
 crear fichero texto2.txt en C:\Users\JL\pruebas\git\usuario2
 
+
+
 git add texto2.txt
 
 modificamos el fichero texto1.txt y subimos las modificaciones con:
