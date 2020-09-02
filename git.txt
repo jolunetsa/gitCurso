@@ -1,0 +1,24 @@
+mkdir \repo
+cd \repo
+git --bare init
+
+crear fichero texto1.txt en C:\Users\JL\pruebas\git\usuario1 y subir al repositorio con:
+
+git commit -m “Subida inicial”
+git push
+
+ir al directorio C:\Users\JL\pruebas\git\usuario2
+
+git clone 
+
+crear fichero texto2.txt en C:\Users\JL\pruebas\git\usuario2
+
+git add texto2.txt
+
+modificamos el fichero texto1.txt y subimos las modificaciones con:
+
+git commit -m “modificado1”
+
+abrimos el fichero texto2.txt que teníamos descargado, lo modificamos y antes de subirlo, creamos una nueva rama y  nos cambiamos a ella con:
+
+git merge master
